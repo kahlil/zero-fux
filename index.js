@@ -1,0 +1,2 @@
+var t=function(t){this.dispatcher=t||document.querySelector("body")};t.prototype.dispatch=function(t){this.dispatcher.dispatchEvent(new CustomEvent(t.type,{detail:t,bubbles:!0,compose:!0}))},t.prototype.setReducers=function(t,e,o){var r=this;t.forEach(function(t){if(!e[t])throw new Error('Please add a reducer for the "'+t+'" action.');r.dispatcher.addEventListener(t,function(r){var s=r.detail;o.state=e[t](o.state,s),console.log(o.state)})})};var e=new t;exports.ZeroFux=t,exports.zeroFux=e;
+//# sourceMappingURL=index.js.map

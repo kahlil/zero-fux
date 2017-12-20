@@ -1,0 +1,16 @@
+{
+ "name": "zerofux",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "build": "microbundle",
+  "dev": "microbundle watch"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+  "microbundle": "^0.2.4"
+ }
+}
