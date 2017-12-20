@@ -3,6 +3,7 @@
  "version": "1.0.0",
  "description": "",
  "main": "index.js",
+ "module": "index.m.js",
  "scripts": {
   "build": "microbundle",
   "dev": "microbundle watch"
