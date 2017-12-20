@@ -1,6 +1,6 @@
 # ZeroFux
 
-> No Flux plus no Redux equals zero-fux. A stateless unidirectional data flow implemented with [Custom Events](https://developer.mozilla.org/de/docs/Web/API/CustomEvent).
+> No Flux plus no Redux equals ZeroFux. A stateless unidirectional data flow implemented with [Custom Events](https://developer.mozilla.org/de/docs/Web/API/CustomEvent).
 
 ## Install
 
