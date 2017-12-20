@@ -34,7 +34,7 @@ export class ZeroFux {
   setReducers(actionTypes, reducers, component) {
     actionTypes.forEach(actionType => {
       if (reducers[actionType]) {
-        this.dispatcher.addEventListener(actionType, e => {
+        this.on(actionType, e => {
           const action = e.detail;
           component.state = reducers[actionType](component.state, action);
         });
