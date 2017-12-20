@@ -9,9 +9,9 @@
   "build": "microbundle index.js -o build",
   "dev": "microbundle index.js watch -o build"
  },
- "keywords": [],
- "author": "",
- "license": "ISC",
+ "keywords": ["javascript-library", "unidirectional-data-flow", "zerofux", "web-platform"],
+ "author": "Kahlil Lechelt",
+ "license": "MIT",
  "devDependencies": {
   "microbundle": "^0.2.4"
  }
