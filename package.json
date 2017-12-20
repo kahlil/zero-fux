@@ -1,6 +1,6 @@
 {
  "name": "zero-fux",
- "version": "1.0.0",
+ "version": "1.0.5",
  "description": "Use a unidirectional dataflow with Custom Events.",
  "repository": "kahlil/zero-fux",
  "main": "build/zero-fux.js",
@@ -12,7 +12,7 @@
  "keywords": [
   "javascript-library",
   "unidirectional-data-flow",
-  "zero-fux",
+  "zerofux",
   "web-platform"
  ],
  "author": "Kahlil Lechelt",
