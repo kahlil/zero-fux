@@ -2,6 +2,8 @@
 
 > Use a unidirectional dataflow with Custom Events.
 
+No Flux plus no Redux equals zero-fux.
+
 ## Install
 
 ```sh
