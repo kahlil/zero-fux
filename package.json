@@ -1,23 +1,23 @@
 {
- "name": "zero-fux",
- "version": "1.0.6",
- "description": "Use a unidirectional dataflow with Custom Events.",
- "repository": "kahlil/zero-fux",
- "main": "build/zero-fux.js",
- "module": "build/zero-fux.m.js",
- "scripts": {
+  "name": "zero-fux",
+  "version": "1.0.6",
+  "description": "Use a unidirectional dataflow with Custom Events.",
+  "repository": "kahlil/zero-fux",
+  "main": "build/zero-fux.js",
+  "module": "build/zero-fux.m.js",
+  "scripts": {
   "build": "microbundle index.js -o build",
   "dev": "microbundle index.js watch -o build"
- },
- "keywords": [
+  },
+  "keywords": [
   "javascript-library",
   "unidirectional-data-flow",
   "zerofux",
   "web-platform"
- ],
- "author": "Kahlil Lechelt",
- "license": "MIT",
- "devDependencies": {
+  ],
+  "author": "Kahlil Lechelt",
+  "license": "MIT",
+  "devDependencies": {
   "microbundle": "^0.2.4"
- }
+  }
 }
