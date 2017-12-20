@@ -1,6 +1,6 @@
 {
  "name": "zerofux",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "Use a unidirectional dataflow with Custom Events.",
  "repository": "kahlil/zerofux",
  "main": "build/zerofux.js",
@@ -9,7 +9,12 @@
   "build": "microbundle index.js -o build",
   "dev": "microbundle index.js watch -o build"
  },
- "keywords": ["javascript-library", "unidirectional-data-flow", "zerofux", "web-platform"],
+ "keywords": [
+  "javascript-library",
+  "unidirectional-data-flow",
+  "zerofux",
+  "web-platform"
+ ],
  "author": "Kahlil Lechelt",
  "license": "MIT",
  "devDependencies": {
