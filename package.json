@@ -10,10 +10,10 @@
   "dev": "microbundle index.js watch -o build"
   },
   "keywords": [
-  "javascript-library",
-  "unidirectional-data-flow",
-  "zerofux",
-  "web-platform"
+    "javascript-library",
+    "unidirectional-data-flow",
+    "zerofux",
+    "web-platform"
   ],
   "author": "Kahlil Lechelt",
   "license": "MIT",
