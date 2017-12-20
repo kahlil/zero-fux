@@ -20,7 +20,6 @@ ZeroFux.prototype.setReducers = function setReducers (actionTypes, reducers, com
             this$1.dispatcher.addEventListener(actionType, function (e) {
                 var action = e.detail;
                 component.state = reducers[actionType](component.state, action);
-                console.log(component.state);
             });
         } else {
             throw new Error(("Please add a reducer for the \"" + actionType + "\" action."));
@@ -30,4 +29,4 @@ ZeroFux.prototype.setReducers = function setReducers (actionTypes, reducers, com
 var zeroFux = new ZeroFux();
 
 export { ZeroFux, zeroFux };
-//# sourceMappingURL=index.m.js.map
+//# sourceMappingURL=zerofux.m.js.map

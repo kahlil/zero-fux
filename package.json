@@ -1,12 +1,12 @@
 {
  "name": "zerofux",
  "version": "1.0.0",
- "description": "",
- "main": "index.js",
- "module": "index.m.js",
+ "description": "Use a unidirectional dataflow with Custom Events.",
+ "main": "build/zerofux.js",
+ "module": "build/zerofux.m.js",
  "scripts": {
-  "build": "microbundle",
-  "dev": "microbundle watch"
+  "build": "microbundle index.js -o build",
+  "dev": "microbundle index.js watch -o build"
  },
  "keywords": [],
  "author": "",
