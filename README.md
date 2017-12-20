@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm i zerofux
+npm i zero-fux
 ```
 
 ## Example

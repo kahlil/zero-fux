@@ -29,4 +29,4 @@ ZeroFux.prototype.setReducers = function setReducers (actionTypes, reducers, com
 var zeroFux = new ZeroFux();
 
 export { ZeroFux, zeroFux };
-//# sourceMappingURL=zerofux.m.js.map
+//# sourceMappingURL=zero-fux.m.js.map
