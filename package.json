@@ -1,6 +1,6 @@
 {
  "name": "zerofux",
- "version": "1.0.1",
+ "version": "1.0.2",
  "description": "Use a unidirectional dataflow with Custom Events.",
  "repository": "kahlil/zerofux",
  "main": "build/zerofux.js",
