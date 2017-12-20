@@ -1,8 +1,6 @@
 # ZeroFux
 
-> Use a unidirectional dataflow with Custom Events.
-
-No Flux plus no Redux equals zero-fux.
+> No Flux plus no Redux equals zero-fux. Use a unidirectional data flow with [Custom Events](https://developer.mozilla.org/de/docs/Web/API/CustomEvent).
 
 ## Install
 
