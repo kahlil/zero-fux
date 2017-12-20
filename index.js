@@ -5,7 +5,6 @@ export class ZeroFux {
     } else {
       this.dispatcher = document.querySelector('body');
     }
-    this.on = this.dispatcher.addEventListener;
   }
 
   // The dipatch method takes an action argument
